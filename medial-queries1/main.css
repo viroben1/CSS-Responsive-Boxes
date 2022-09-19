@@ -1,6 +1,25 @@
 body {
   background: blanchedalmond;
 }
-.container{
-  background-color: fuchsia;
+*{
+  border:1px solid teal;
 }
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90;
+}
+header,footer {
+  flex-grow : 1;
+}
+main{
+  flex-grow: 3;
+}
+  
+
+
+
+
+
